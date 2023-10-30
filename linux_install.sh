@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Prompt for Warp version
-read -p "Warp version: " warp_version
 
 # Create the directory structure with the specified version
 warp_directory=$(pwd)/"WarpFusion${warp_version}"
