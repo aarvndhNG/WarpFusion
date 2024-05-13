@@ -4,7 +4,7 @@
 PYTHON="python3.10" # Replace with your desired $PYTHON version
 
 # Prompt for Warp version and store it in a variable
-read -p "Warp version: " warp_version
+warp_version="14.89"
 
 # Create the directory structure with the specified version
 warp_directory=$(pwd)/"WarpFusion-${warp_version}"
